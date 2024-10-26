@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import connectDB from './db/connectdb.js';
+import connectDB from './db/connectDB.js'
 import express from "express"
 import cookieParser from 'cookie-parser';
 import router from './routes/userRoutes.js';
